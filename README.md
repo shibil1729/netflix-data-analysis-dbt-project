@@ -1,15 +1,12 @@
-Welcome to your new dbt project!
+**MovieLens Data Warehouse – dbt + Snowflake Project
+Project Overview**
 
-### Using the starter project
+This project demonstrates an end-to-end modern data warehouse implementation using dbt and Snowflake on the MovieLens dataset.
+The goal of this project is to transform raw movie rating data into structured, analytics-ready dimension and fact models using a layered data modeling approach.
+The project showcases real-world analytics engineering practices including:
+-Layered modeling (Raw → Staging → Dim/Facts → Marts)
+-Snapshot implementation
+-Seed integration
+-Modular SQL transformations
+-Version control using Git
 
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
